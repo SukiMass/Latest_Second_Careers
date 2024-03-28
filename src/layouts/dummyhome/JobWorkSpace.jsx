@@ -26,7 +26,7 @@ const JobWorkSpace = () => {
             </div>
             <div className="col">
               <select className="form-select border-0 outline-none" aria-label="Default select example">
-                <option selected>Open this select menu</option>
+                <option>Open this select menu</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -162,7 +162,7 @@ const JobWorkSpace = () => {
                     <img src={Logo} alt="..." width={52} height={52} />
                   </div>
                   <div className="flex-grow-1 ms-3">
-                    <h3 className="job-heading" data-testid='DataQualityManagerResult'>Data Quality Manager</h3>
+                    <h3 className="job-heading" data-testid='DataQualityManager'>Data Quality Manager</h3>
                     <p className="job-posted-on m-0">Posted on 22 Mar 2024</p>
                   </div>
                 </div>

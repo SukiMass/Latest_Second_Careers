@@ -7,25 +7,19 @@ const FilterMethods = () => {
   const [error, setError] = React.useState(false);
 
   function handleSearchInput(e) {
-      // console.log(e.target.value)
       setSearch(e.target.value)
   }
 
   function handleSearchButtonClick() {
-    console.log(search)
     if (search === '') {
         setError(true)
-        console.log('True')
     }
     else {
         setError(false);
-        console.log('False')
     }
 }
 
-function handleHeadSaveClick() {
-  console.log('Head Save Clicked');
-} 
+
 
   return (
     <div className="container-fluid dashboard-menus-container">
@@ -47,7 +41,7 @@ function handleHeadSaveClick() {
                 Applied
               </a>
             </li>
-            <li className="nav-item" data-testid='Saved'  onClick={handleHeadSaveClick}>
+            <li className="nav-item" data-testid='Saved'>
               <a className="nav-link" href="#">
                 Saved
               </a>

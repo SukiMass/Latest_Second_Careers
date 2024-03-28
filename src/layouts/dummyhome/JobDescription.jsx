@@ -17,7 +17,7 @@ const JobDescription = () => {
           enim in! Delectus.
         </p>
       </div>
-      <div class="d-flex justify-content-around mt-4">
+      <div className="d-flex justify-content-around mt-4">
         <label className="fs-6 company-details-icon">
           <FaRegCalendarAlt className="me-2 text-success" />
           Non-for-Profit / NGO
@@ -82,7 +82,7 @@ const JobDescription = () => {
           <li>Lorem ipsum dolor sit amet consectetur.</li>
           <li>Lorem ipsum dolor sit amet consectetur.</li>
         </ul>
-        <div class="d-flex justify-content-around mt-4 dashboard-job-post-icons">
+        <div className="d-flex justify-content-around mt-4 dashboard-job-post-icons">
           <label className="fs-6">
             <FaRegCalendarAlt className="me-2 text-success" />
             Volunteer

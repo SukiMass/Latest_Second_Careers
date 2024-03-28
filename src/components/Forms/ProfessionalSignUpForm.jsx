@@ -3,7 +3,7 @@ import FormInput from "../Input/FormInput";
 import Input from "../Input/Input";
 const ProfessionalSignUpForm = () => {
   return (
-    <form class="row signup-forms">
+    <form className="row signup-forms">
       <FormInput
         formInputDivClassName="col-md-6 mt-2"
         formInputType="text"
@@ -86,8 +86,8 @@ const ProfessionalSignUpForm = () => {
         formFieldRequired={true}
       />
                                          
-      <div class="col-12 mt-2">
-        <div class="form-check">
+      <div className="col-12 mt-2">
+        <div className="form-check">
             <Input
             className="form-check-input"
             type="checkbox"
@@ -95,15 +95,15 @@ const ProfessionalSignUpForm = () => {
             required={true}
             />
          
-          <label class="form-check-label" for="invalidCheck">
+          <label className="form-check-label" for="invalidCheck">
             I agree to all the <a href="#">Terms</a> and
             <a href="#">Privacy policy</a>
           </label>
-          <div class="text-danger signup-error-message">You must agree before submitting.</div>
+          <div className="text-danger signup-error-message">You must agree before submitting.</div>
         </div>
       </div>
 
-      <div class="d-grid mt-2">
+      <div className="d-grid mt-2">
         <button className="btn sign-up-buttons ">Create Account</button>
       </div>
     </form>

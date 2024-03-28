@@ -8,8 +8,8 @@ const CommunityPage = () => {
     <>
         <DashboardNavbar />
             <div className="container">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
+            <div className="row row-cols-1 row-cols-md-3 g-4">
+                <div className="col">
                     <CardWithImage cardImage={Image.learningImage}
                     cardTitle="Community"
                     cardText=" Empowering Experienced semi-retired or retired
@@ -25,7 +25,7 @@ const CommunityPage = () => {
                     firstCardColor="brand-color"
                     secondCardColor="outline-secondary"/>
                 </div>
-                <div class="col">
+                <div className="col">
                 <CardWithImage cardImage={Image.learningTwo}
                     cardTitle="Community"
                     cardText=" Empowering Experienced semi-retired or retired
@@ -41,7 +41,7 @@ const CommunityPage = () => {
                     firstCardColor="brand-color"
                     secondCardColor="outline-secondary"/>
                 </div>
-                <div class="col">
+                <div className="col">
                 <CardWithImage cardImage={Image.learningThree}
                     cardTitle="Community"
                     cardText=" Empowering Experienced semi-retired or retired

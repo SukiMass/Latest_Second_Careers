@@ -25,7 +25,7 @@ const JobFilter = () => {
           id="skills"
           data-testid='Skills'
         >
-          <option selected>Open this select menu</option>
+          <option >Open this select menu</option>
           <option value="1">One</option>
           <option value="2">Two</option>
           <option value="3">Three</option>
@@ -41,7 +41,7 @@ const JobFilter = () => {
           id="Sectors"
           data-testid='Sectors'
         >
-          <option selected>Open this select menu</option>
+          <option >Open this select menu</option>
           <option value="1">One</option>
           <option value="2">Two</option>
           <option value="3">Three</option>
@@ -57,7 +57,7 @@ const JobFilter = () => {
             id="workplace_hybrid"
             data-testid="Hybrid"
           />
-          <label className="form-check-label" for="workplace_hybrid" >
+          <label className="form-check-label"  htmlFor="workplace_hybrid" >
             Hybrid
           </label>
         </div>
@@ -69,7 +69,7 @@ const JobFilter = () => {
             id="workplace_on_site"
             data-testid="On-site"
           />
-          <label className="form-check-label" for="workplace_on_site">
+          <label className="form-check-label"  htmlFor="workplace_on_site">
             On-site
           </label>
         </div>
@@ -79,10 +79,9 @@ const JobFilter = () => {
             type="checkbox"
             value=""
             id="workplace_remote"
-            ata-testid="Remote"
             data-testid="Remote" 
           />
-          <label className="form-check-label" for="workplace_remote">
+          <label className="form-check-label"  htmlFor="workplace_remote">
             Remote
           </label>
         </div>
@@ -97,7 +96,7 @@ const JobFilter = () => {
           id="location"
           data-testid='Location'
         >
-          <option selected>Open this select menu</option>
+          <option>Open this select menu</option>
           <option value="1">One</option>
           <option value="2">Two</option>
           <option value="3">Three</option>
@@ -113,7 +112,7 @@ const JobFilter = () => {
             id="job_full-time"
             data-testid="Full-time"
           />
-          <label className="form-check-label" for="job_full-time">
+          <label className="form-check-label" htmlFor="job_full-time">
             Full type
           </label>
         </div>
@@ -125,7 +124,7 @@ const JobFilter = () => {
             id="job_part_time"
             data-testid="Part-time"
           />
-          <label className="form-check-label" for="job_part_time">
+          <label className="form-check-label"  htmlFor="job_part_time">
             Part time
           </label>
         </div>
@@ -137,7 +136,7 @@ const JobFilter = () => {
             id="job_contract"
             data-testid="Contract"
           />
-          <label className="form-check-label" for="job_contract">
+          <label className="form-check-label"  htmlFor="job_contract">
             Contract
           </label>
         </div>
@@ -148,7 +147,7 @@ const JobFilter = () => {
             value=""
             id="job_temporary"
           />
-          <label className="form-check-label" for="job_temporary">
+          <label className="form-check-label"  htmlFor="job_temporary">
             Temporary
           </label>
         </div>
@@ -160,7 +159,7 @@ const JobFilter = () => {
             id="job_others"
             data-testid="Other"
           />
-          <label className="form-check-label" for="job_others">
+          <label className="form-check-label"  htmlFor="job_others">
             Others
           </label>
         </div>
@@ -172,7 +171,7 @@ const JobFilter = () => {
             id="workplace_remote"
             data-testid="Volunteer"
           />
-          <label className="form-check-label" for="workplace_remote">
+          <label className="form-check-label"  htmlFor="workplace_remote">
             Volunteer
           </label>
         </div>
@@ -183,7 +182,7 @@ const JobFilter = () => {
             value=""
             id="workplace_remote"
           />
-          <label className="form-check-label" for="workplace_remote">
+          <label className="form-check-label"  htmlFor="workplace_remote">
             Internship
           </label>
         </div>
@@ -198,7 +197,7 @@ const JobFilter = () => {
             id="schedule_fixed"
             data-testid="Fixed"
           />
-          <label className="form-check-label" for="schedule_fixed">
+          <label className="form-check-label"  htmlFor="schedule_fixed">
             Fixed
           </label>
         </div>
@@ -210,7 +209,7 @@ const JobFilter = () => {
             id="schedule_flexible"
             data-testid="Flexible"
           />
-          <label className="form-check-label" for="schedule_flexible">
+          <label className="form-check-label"  htmlFor="schedule_flexible">
             Flexible
           </label>
         </div>
@@ -222,7 +221,7 @@ const JobFilter = () => {
             id="schedule_weekend_only"
             data-testid="WeekendOnly"
           />
-          <label className="form-check-label" for="schedule_weekend_only">
+          <label className="form-check-label"  htmlFor="schedule_weekend_only">
             Weekend only
           </label>
         </div>
@@ -234,7 +233,7 @@ const JobFilter = () => {
             id="schedule_monday"
             data-testid="MondaytoFriday"
           />
-          <label className="form-check-label" for="schedule_monday">
+          <label className="form-check-label"  htmlFor="schedule_monday">
             Monday to Friday
           </label>
         </div>
@@ -246,7 +245,7 @@ const JobFilter = () => {
             id="schedule_us"
             data-testid="UStime"
           />
-          <label className="form-check-label" for="schedule_us">
+          <label className="form-check-label"  htmlFor="schedule_us">
             Us time
           </label>
         </div>
@@ -258,7 +257,7 @@ const JobFilter = () => {
             id="schedule_india"
             data-testid="Indiatime"
           />
-          <label className="form-check-label" for="schedule_india">
+          <label className="form-check-label"  htmlFor="schedule_india">
             India time
           </label>
         </div>
@@ -270,7 +269,7 @@ const JobFilter = () => {
             id="schedule_other"
             data-testid="ScheduleOther"
           />
-          <label className="form-check-label" for="schedule_other">
+          <label className="form-check-label"  htmlFor="schedule_other">
             Other
           </label>
         </div>

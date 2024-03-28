@@ -22,18 +22,18 @@ const DashboardNavbar = ({ dashboadMenus, profileImage, profileName }) => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="navbar-collapse collapse w-100" id="collapsingNavbar3">
-          <ul className="navbar-nav w-100 justify-content-center">
-            <li className="nav-item active">
-              <a className="nav-link" href="#">
+          <ul className="navbar-nav w-100 justify-content-between">
+            <li className="nav-item active" >
+              <a className="nav-link" href="#" data-testid='Home'>
                 <b>{dashboadMenus[0]}</b>
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" data-testid="Learning">
               <a className="nav-link" href="//codeply.com">
                 {dashboadMenus[1]}
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" data-testid="Community">
               <a className="nav-link" href="#">
                 {dashboadMenus[2]}
               </a>

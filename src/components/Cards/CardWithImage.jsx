@@ -27,7 +27,7 @@ const CardWithImage = ({
       </div>
       <div className="card-footer border-0">
         {role === 'learningAndCommunity' ? 
-        <DoubleButton firstButtonName={firstButton_Name} secondButtonName={secondButton_Name} cardIcon={icon} firstCardColorClass={firstCardColor} secondCardColorClass={secondCardColor}/>
+        <DoubleButton firstButtonName={firstButton_Name} secondButtonName={secondButton_Name} cardIcon={icon} firstCardColorclassName={firstCardColor} secondCardColorclassName={secondCardColor}/>
           : <Button
             className="btn btn-primary  w-100 sign-up-buttons"
             title={buttonName}

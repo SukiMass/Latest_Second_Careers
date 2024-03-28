@@ -12,8 +12,8 @@ const RoleSelectionLayout = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-10 col-lg-9 mx-auto">
-              <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
+              <div className="row row-cols-1 row-cols-md-3 g-4">
+                <div className="col">
                   <CardWithImage
                     cardImage={Image.logo}
                     cardTitle="Professional"
@@ -27,7 +27,7 @@ const RoleSelectionLayout = () => {
                     buttonName="Sign up"
                   />
                 </div>
-                <div class="col">
+                <div className="col">
                   <CardWithImage
                     cardImage={Image.logo}
                     cardTitle="Employer"
@@ -40,7 +40,7 @@ const RoleSelectionLayout = () => {
                     buttonName="Sign up"
                   />
                 </div>
-                <div class="col">
+                <div className="col">
                   <CardWithImage
                     cardImage={Image.logo}
                     cardTitle="Partner"

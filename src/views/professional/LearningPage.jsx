@@ -12,8 +12,8 @@ const LearningPage = () => {
         <>
             <DashboardNavbar />
             <div className="container">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
+            <div className="row row-cols-1 row-cols-md-3 g-4">
+                <div className="col">
                     <CardWithImage cardImage={Image.learningImage}
                     cardTitle="Learning"
                     cardText=" Empowering Experienced semi-retired or retired
@@ -31,7 +31,7 @@ const LearningPage = () => {
                     secondCardColor="brand-color"
                     />
                 </div>
-                <div class="col">
+                <div className="col">
                 <CardWithImage cardImage={Image.learningTwo}
                     cardTitle="Learning"
                     cardText=" Empowering Experienced semi-retired or retired
@@ -50,7 +50,7 @@ const LearningPage = () => {
                     />
 
                 </div>
-                <div class="col">
+                <div className="col">
                 <CardWithImage cardImage={Image.learningThree}
                     cardTitle="Learning"
                     cardText=" Empowering Experienced semi-retired or retired

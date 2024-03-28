@@ -13,9 +13,9 @@ const FormInput = ({
   formAriaLabel,
 }) => {
   return (
-    <div class={formInputDivClassName}>
+    <div className={formInputDivClassName}>
       <FormLabel labelFieldName={formFieldName} lableClassName="form-label" />
-      <div class="input-group">
+      <div className="input-group">
         <Input
           type={formInputType}
           className="form-control"
@@ -31,7 +31,7 @@ const FormInput = ({
           />
         ) : null}
       </div>
-      <div class="text-danger mt-2 signup-error-message">{formInputFieldError}</div>
+      <div className="text-danger mt-2 signup-error-message">{formInputFieldError}</div>
     </div>
   );
 };
